@@ -28,15 +28,15 @@ public static void twisters() {
         
         for (int i=1 ; i<=110 ; i++){
         if ( i%2 == 0 ){
-            System.out.println( "Tweetle");
+            System.out.print( "Tweetle");
         
             if (i%4==0)
-                 System.out.println( "Beetle");
+                 System.out.print( "Beetle");
             
                 if (i%6==0)
-                    System.out.println("Poodle");
+                    System.out.print("Poodle");
                 } else {
-                      System.out.println(" "+i+" ");
+                      System.out.print(" "+i+" ");
                 }
             }
         }
